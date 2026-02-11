@@ -140,3 +140,5 @@ PASSWORD_HASHERS = [
         'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
 ]
 LOGIN_URL = 'rango:login'
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 1209600
